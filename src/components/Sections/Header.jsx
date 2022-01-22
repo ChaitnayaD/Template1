@@ -3,22 +3,21 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/header-image.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
 export default function Header() {
   return (
-    <Wrapper id="home" className="container flexSpaceCenter">
-      <LeftSide className="flexCenter">
+    <Wrapper id="home" className="container flexSpaceCenter ">
+      <LeftSide className="flexCenter ">
         <div>
-          <h1 className="extraBold font60">We are Digital Agency.</h1>
-          <HeaderP className="font13 semiBold">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          <h1 className="extraBold font60">Lala Lajpat Rai Hall of Residence</h1>
+          <HeaderP className="font25 semiBold">
+            "Once a Lajpatian, ever a Lajpatian."
           </HeaderP>
           <BtnWrapper>
-            <FullButton title="Get Started" />
+            <FullButton  title="Watch Video" />
           </BtnWrapper>
         </div>
       </LeftSide>
@@ -31,9 +30,9 @@ export default function Header() {
             </QuotesWrapper>
             <div>
               <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
+                <em>A person should be courageous and honest in worshipping the truth, without being concerned about receiving worldly benefits.</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
+              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Lala Lajpat Rai</p>
             </div>
           </QuoteWrapper>
           <DotsWrapper>
